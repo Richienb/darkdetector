@@ -15,6 +15,7 @@ install:
 
 script:
     - yarn compile
+    - node darkdetector.min.js
     - if [ -n "$TRAVIS_TAG" ]; then npm version $TRAVIS_TAG; fi
 
 deploy:
