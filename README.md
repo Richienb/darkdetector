@@ -3,6 +3,6 @@
 
 # Dark Detector
 
-[![NPM](https://nodei.co/npm/Richienb/darkdetector.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/Richienb/darkdetector)
+[![NPM](https://nodei.co/npm/darkdetector.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/darkdetector)
 
 Detect dark mode in any browser.
