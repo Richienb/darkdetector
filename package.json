@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "darkdetector.js",
   "scripts": {
-      "run": "node darkdetector.js",
+      "start": "node darkdetector.js",
       "compile": "google-closure-compiler --compilation_level=bundle --js=darkdetector.js --js_output_file=darkdetector.min.js"
   },
   "repository": "https://github.com/Richienb/darkdetector.git",

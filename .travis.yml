@@ -14,7 +14,7 @@ install:
     - yarn install --non-interactive --production false
 
 script:
-    - yarn run
+    - yarn start
     - yarn compile
     - if [ -n "$TRAVIS_TAG" ]; then npm version $TRAVIS_TAG; fi
 
