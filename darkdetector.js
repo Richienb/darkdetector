@@ -1,10 +1,14 @@
 const DarkDetector = ({
     query = true,
+    highcontrast = false,
     bodyclass = false,
     time = false
 }) => {
-    // CSS media query
+    // MacOS CSS media query
     if (query && window.matchMedia('(prefers-color-scheme: dark)').matches) return true
+
+    // High contrast CSS media query
+    if (highcontrast && window.matchMedia('(-ms-high-contrast: white-on-black)').matches) return true
 
     // Class on body
     if (bodyclass && document.getElementsByTagName("body")[0].classList.contains(typeof bodyclass === "boolean" ? "dm-dark" : bodyclass)) return true
