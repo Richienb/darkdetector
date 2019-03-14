@@ -1,0 +1,37 @@
+language:                 node_js
+
+node_js:                  lts/*
+
+cache:
+    - npm
+    - yarn
+
+before_install:
+    - echo -e "machine github.com\n  login $github_token" > ~/.netrc
+    - npm install --global yarn
+
+install:
+    - yarn install --non-interactive --production false
+
+script:
+    - yarn run
+    - yarn compile
+    - if [ -n "$TRAVIS_TAG" ]; then npm version $TRAVIS_TAG; fi
+
+deploy:
+    - provider:           npm
+      email:              richiebendall@gmail.com
+      skip_cleanup:       true
+      api_key:            $npm_token
+      on:
+          tags:           true
+          repo:           Richienb/darkdetector
+
+    -   provider:         releases
+        api_key:          $github_token
+        file_glob:        true
+        file:             dist/*
+        skip_cleanup:     true
+        on:
+            tags:           true
+            repo:           Richienb/darkdetector

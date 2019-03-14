@@ -1,0 +1,15 @@
+{
+  "name": "darkdetector",
+  "version": "0.0.1",
+  "main": "darkdetector.js",
+  "scripts": {
+      "run": "node darkdetector.js",
+      "compile": "google-closure-compiler --compilation_level=bundle --js=darkdetector.js --js_output_file=darkdetector.min.js"
+  },
+  "repository": "https://github.com/Richienb/darkdetector.git",
+  "author": "Richie Bendall <richiebendall@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "google-closure-compiler": "^20190301.0.0"
+  }
+}
