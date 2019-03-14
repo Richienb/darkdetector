@@ -9,7 +9,7 @@
   "repository": "https://github.com/Richienb/darkdetector.git",
   "author": "Richie Bendall <richiebendall@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "google-closure-compiler": "^20190301.0.0"
   }
 }
