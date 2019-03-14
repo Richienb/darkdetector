@@ -1,6 +1,6 @@
 {
   "name": "darkdetector",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "darkdetector.js",
   "scripts": {
       "start": "node darkdetector.js",
