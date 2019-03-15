@@ -27,7 +27,7 @@ const DarkDetector = require("darkdetector")
 From your web application:
 
 ```html
-<script src="https://unpkg.com/darkdetector"></script>
+<script src="https://unpkg.com/darkdetector/darkdetector.min.js"></script>
 ```
 
 ## Usage
