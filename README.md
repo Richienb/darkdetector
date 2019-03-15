@@ -7,15 +7,6 @@
 
 Detect dark mode in any browser.
 
-[![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/scriptinjector/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/scriptinjector)
-[![CodeFactor Score](https://www.codefactor.io/repository/github/Richienb/scriptinjector/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/Richienb/scriptinjector)
-
-# Script Injector
-
-[![NPM](https://nodei.co/npm/scriptinjector.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/scriptinjector)
-
-Inject scripts into any website.
-
 ## Importing
 
 From your NodeJS application:
