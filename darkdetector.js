@@ -14,7 +14,7 @@ const DarkDetector = ({
     if (bodyclass && document.getElementsByTagName("body")[0].classList.contains(typeof bodyclass === "boolean" ? "dm-dark" : bodyclass)) return true
 
     // Night time
-    if (time && new Date().getHours() >= time.min ? time.min : 6 && new Date().getHours() <= time.max ? time.max : 20) return true
+    if (time && new Date().getHours() >= time.min ? time.min : 6 && new Date().getHours() >= time.max ? time.max : 20) return true
 
     // If all checks fail
     return false
