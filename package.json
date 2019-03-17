@@ -1,5 +1,6 @@
 {
   "name": "darkdetector",
+  "description": "Detect dark mode in any browser.",
   "version": "0.0.0",
   "main": "darkdetector.js",
   "scripts": {
