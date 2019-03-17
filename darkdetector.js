@@ -3,7 +3,7 @@ const DarkDetector = ({
     highcontrast = false,
     bodyclass = false,
     time = false
-}) => {
+} = "") => {
     // MacOS CSS media query
     if (query && window.matchMedia('(prefers-color-scheme: dark)').matches) return true
 
