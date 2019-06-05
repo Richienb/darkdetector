@@ -1,3 +1,1 @@
-theme: jekyll-theme-cayman
-title: Dark Detector
-description: Detect dark mode in any browser.
+remote_theme: Richienb/jekyll-theme-richienb
